@@ -257,6 +257,11 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  height: 100%;
 }
 
 .home-section {
@@ -277,16 +282,18 @@ button:focus {
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
+  padding-left: 0 !important;
 }
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 0 !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .main-name {
   color: #cd5ff8;
+  font-size: 56px;
 }
 
 .Typewriter__wrapper {
@@ -308,6 +315,15 @@ button:focus {
   .Typewriter__cursor {
     display: none !important;
   }
+}
+
+.type-container {
+  text-align: left;
+}
+
+.type-container span {
+  margin: 0;
+  padding: 0;
 }
 
 .myAvtar {
@@ -338,7 +354,7 @@ button:focus {
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: center;
 }
 
 .home-about-social {
